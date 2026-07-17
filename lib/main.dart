@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:todo_app/screens/home/home_screen.dart';
+import 'package:todo_app/screens/task/add_task_screen.dart';
+import 'package:todo_app/screens/task/edit_task_screen.dart';
+import 'package:todo_app/screens/task/task_detail_screen.dart';
 import 'package:todo_app/screens/task/task_list_screen.dart';
 
 import 'providers/auth_provider.dart';
@@ -18,7 +22,7 @@ void main() {
       ],
       child: const MaterialApp(
         debugShowCheckedModeBanner: false,
-        home: TaskListScreen(),
+        home: HomeScreen(),
       ),
     ),
   );
